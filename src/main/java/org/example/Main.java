@@ -2,23 +2,23 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int BalanceRub = 100;
-        int ReplenishmentRub = 1100;
+        int balanceRub = 100;
+        int replenishmentrub = 1100;
 
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
         // суммы пополнения и тп
-        int BonusRub = 1000;
-        int Bonus = 0;
+        int bonusRub = 1000;
+        int bonus = 0;
 
-        if (BonusRub < ReplenishmentRub) {
-            Bonus = ReplenishmentRub / 100;
+        if (bonusRub < replenishmentrub) {
+            bonus = replenishmentrub / 100;
             // Условным оператором проверяете, превысила ли
             // сумма пополнения порог, и для этих двух разных
             // сценариев рассчитываете сумму бонуса и выводите
-            System.out.println("Бонусные рубли=" + Bonus); // на экран.
+            System.out.println("Бонусные рубли=" + bonus); // на экран.
         }
-        if (BonusRub > ReplenishmentRub) {
+        if (bonusRub > replenishmentrub) {
             System.out.println("Nishebrodik_idi_rabotai");
         }
 
