@@ -18,7 +18,7 @@ public class Main {
             // сценариев рассчитываете сумму бонуса и выводите
             System.out.println("Бонусные рубли=" + bonus); // на экран.
         }
-        if (bonusRub > replenishmentrub) {
+        if (bonusRub >= replenishmentrub) {
             System.out.println("Nishebrodik_idi_rabotai");
         }
 
